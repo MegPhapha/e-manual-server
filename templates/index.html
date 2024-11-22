@@ -1,0 +1,33 @@
+
+<!-- saved from url=(0338)https://d3c33hcgiwev3.cloudfront.net/miEr2b52S9axdfMe7w2TeA_38e32bfe78d947a591a4feb835ef34f1_index.html?Expires=1731801600&Signature=RBAurEXNEPuxOWj7LuIQmCeUZ9CtdC01eDbOB0z0V7yMbI9t5nSpjEHuHcoW0B7IpvuGfKDVkvQdQnRLi0gutDXVJsweUGpl8i4j9QfVs9rHbB6GfAN2SQT1mAEFQk-GGGyKilQZRK1UlTYm74TuwQhH18xJkOU3UGnBEedyMVE_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="https://d3c33hcgiwev3.cloudfront.net/images/favicon.ico">
+        <link rel="stylesheet" href="./index_files/nightowl.css">
+        <title>Night Owl Airlines Maintenance</title>
+    </head>
+
+    <body>
+        <div class="top-banner">
+            <p class="caption-sm">NIGHT OWL AIRLINES</p>
+            <p class="caption-lg">MAINTENANCE DEPT.</p>
+        </div>
+
+        <div class="content-area">
+
+            <!-- generate dynamic content here -->
+{{range $val := .}}
+<a href = "manuals/{{$val}}.html">
+    <img class="index-img" src="images/{{$val}}.jpg" alt=" {{$val}}"></img>
+</a>
+
+{{end}}
+
+        </div>
+
+        <div class="bottom-banner">
+            <p class="caption-fine">COPYRIGHT (C) 2024 NIGHT OWL AIRLINES</p>
+        </div>
+    
+</body>
+</html>
